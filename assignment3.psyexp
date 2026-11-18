@@ -1,0 +1,984 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2026.2.4">
+  <Settings>
+    <Param val="use prefs" valType="str" updates="None" name="Audio lib"/>
+    <Param val="" valType="str" updates="None" name="Completed URL"/>
+    <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
+    <Param val="'data/' + expInfo['participant'] + '_' + expName + '_' + expInfo['date']" valType="code" updates="None" name="Data filename"/>
+    <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
+    <Param val="Thank you for your patience." valType="str" updates="None" name="End Message"/>
+    <Param val="{'participant': 'f&quot;{randint(0, 999999):06.0f}&quot;', 'session': '001', 'age': '', 'Gender': ''}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="True" valType="bool" updates="None" name="Force stereo"/>
+    <Param val="False" valType="bool" updates="None" name="Full-screen window"/>
+    <Param val="" valType="str" updates="None" name="HTML path"/>
+    <Param val="" valType="str" updates="None" name="Incomplete URL"/>
+    <Param val="testMonitor" valType="str" updates="None" name="Monitor"/>
+    <Param val="[]" valType="list" updates="None" name="Resources"/>
+    <Param val="False" valType="bool" updates="None" name="Save csv file"/>
+    <Param val="False" valType="bool" updates="None" name="Save excel file"/>
+    <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
+    <Param val="True" valType="bool" updates="None" name="Save log file"/>
+    <Param val="True" valType="bool" updates="None" name="Save psydat file"/>
+    <Param val="True" valType="bool" updates="None" name="Save wide csv file"/>
+    <Param val="1" valType="num" updates="None" name="Screen"/>
+    <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
+    <Param val="False" valType="bool" updates="None" name="Show mouse"/>
+    <Param val="height" valType="str" updates="None" name="Units"/>
+    <Param val="" valType="str" updates="None" name="Use version"/>
+    <Param val="1440,900" valType="list" updates="None" name="Window size (pixels)"/>
+    <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+    <Param val="" valType="str" updates="None" name="backgroundImg"/>
+    <Param val="avg" valType="str" updates="None" name="blendMode"/>
+    <Param val="float" valType="str" updates="None" name="clockFormat"/>
+    <Param val="{'thisRow.t': 'priority.CRITICAL', 'expName': 'priority.LOW'}" valType="dict" updates="None" name="colPriority"/>
+    <Param val="black" valType="color" updates="None" name="color"/>
+    <Param val="named" valType="str" updates="None" name="colorSpace"/>
+    <Param val="warning" valType="code" updates="None" name="consoleLoggingLevel"/>
+    <Param val="assignment3" valType="str" updates="None" name="expName"/>
+    <Param val="" valType="str" updates="None" name="expVersion"/>
+    <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
+    <Param val="None" valType="str" updates="None" name="eyetracker"/>
+    <Param val="" valType="code" updates="None" name="frameRate"/>
+    <Param val="Attempting to measure frame rate of screen, please wait..." valType="str" updates="None" name="frameRateMsg"/>
+    <Param val="ioHub" valType="str" updates="None" name="keyboardBackend"/>
+    <Param val="info" valType="code" updates="None" name="logging level"/>
+    <Param val="True" valType="bool" updates="None" name="measureFrameRate"/>
+    <Param val="['MIDDLE_BUTTON']" valType="list" updates="None" name="mgBlink"/>
+    <Param val="CONTINUOUS" valType="str" updates="None" name="mgMove"/>
+    <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
+    <Param val="1" valType="code" updates="None" name="runMode"/>
+    <Param val="False" valType="bool" updates="None" name="rush"/>
+    <Param val="time" valType="str" updates="None" name="sortColumns"/>
+    <Param val="pyglet" valType="str" updates="None" name="winBackend"/>
+  </Settings>
+  <Routines>
+    <Routine name="RSVP">
+      <RoutineSettingsComponent name="RSVP" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="RSVP" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text1" plugin="None">
+        <Param val="$c_1" valType="color" updates="set every repeat" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text1" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="[0,0]" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.15" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$w_1&amp;#10;" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="text2" plugin="None">
+        <Param val="$c_2" valType="color" updates="set every repeat" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="[0,0]" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.15" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.15" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$w_2" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="text3" plugin="None">
+        <Param val="$c_3" valType="color" updates="set every repeat" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text3" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="[0,0]" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.3" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.15" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$w_3" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="text4" plugin="None">
+        <Param val="$c_4" valType="color" updates="set every repeat" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text4" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="[0,0]" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.45" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.15" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$w_4" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="text5" plugin="None">
+        <Param val="$c_5" valType="color" updates="set every repeat" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text5" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="[0,0]" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.6" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.15" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$w_5" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="text6" plugin="None">
+        <Param val="$c_6" valType="color" updates="set every repeat" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text6" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="[0,0]" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.75" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.15" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$w_6" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="text7" plugin="None">
+        <Param val="$c_7" valType="color" updates="set every repeat" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text7" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="[0,0]" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.9" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.15" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$w_7" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="text8" plugin="None">
+        <Param val="$c_8" valType="color" updates="set every repeat" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text8" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="[0,0]" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1.05" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.15" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$w_8" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="text9" plugin="None">
+        <Param val="$c_9" valType="color" updates="set every repeat" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text9" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="[0,0]" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1.2" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.15" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$w_9" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="text10" plugin="None">
+        <Param val="$c_10" valType="color" updates="set every repeat" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text10" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="[0,0]" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1.35" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.15" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$w_10" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="text11" plugin="None">
+        <Param val="$c_11" valType="color" updates="set every repeat" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text11" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="[0,0]" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.15" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$w_11" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="text12" plugin="None">
+        <Param val="$c_12" valType="color" updates="set every repeat" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text12" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="[0,0]" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1.65" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.15" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$w_12" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="text13" plugin="None">
+        <Param val="$c_13" valType="color" updates="set every repeat" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text13" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="[0,0]" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1.8" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.15" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$w_13" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="text14" plugin="None">
+        <Param val="$c_14" valType="color" updates="set every repeat" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text14" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="[0,0]" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1.95" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.15" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$w_14" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="text15" plugin="None">
+        <Param val="$c_15" valType="color" updates="set every repeat" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text15" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="[0,0]" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="2.1" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.15" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$w_15" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="mcq">
+      <RoutineSettingsComponent name="mcq" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="mcq" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="0,0.25" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Which word did you see?" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="mcq1" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="mcq1" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="0,0.15" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$&quot;1. &quot; + str(mcq_option_1)" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="mcq2" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="mcq2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="0,0.05" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$&quot;2. &quot; + str(mcq_option_2)" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="mcq3" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="mcq3" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="0,-0.05" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$&quot;3. &quot; + str(mcq_option_3)" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="mcq4" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="mcq4" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="0,-0.15" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$&quot;4. &quot; + str(mcq_option_4)" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp" plugin="None">
+        <Param val="'1','2','3','4'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="$correct_key" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="first key" valType="str" updates="constant" name="store"/>
+        <Param val="True" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="RSVP_exp_start">
+      <RoutineSettingsComponent name="RSVP_exp_start" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="RSVP_exp_start" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="Instructions" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="Instructions" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="[0,0]" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="You will be displayed 15 words,  &amp;#10;&amp;#10;One of those word will be coloured RED&amp;#10;You have to concentrate on the next word shown immediately after that.&amp;#10;&amp;#10;One MCQ question will be shown in which you have to select the word shown after coloured word.&amp;#10;&amp;#10;press Space to continue&amp;#10;&amp;#10;" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="next_start" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="next_start" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="Plus">
+      <RoutineSettingsComponent name="Plus" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="Plus" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="plus" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="plus" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="[0,0]" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="+" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="break_2">
+      <RoutineSettingsComponent name="break_2" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="break_2" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text_2" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Thats All for Trail&amp;#10;&amp;#10;Please take a break.&amp;#10;&amp;#10;Press Space to continue to start Experiment" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_2" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_2" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="break_3">
+      <RoutineSettingsComponent name="break_3" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="break_3" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text_3" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_3" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Thanks for Participating&amp;#10;&amp;#10;Please take a break.&amp;#10;&amp;#10;Press Space to continue to continue Experiment" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_3" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_3" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="finish">
+      <RoutineSettingsComponent name="finish" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="finish" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text_4" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_4" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Its done bro&amp;#10;&amp;#10;Thanks For your Time" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="RSVP_exp_start"/>
+    <LoopInitiator loopType="TrialHandler" name="trial_run">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="trail_run.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0,1]" valType="code"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="name" updates="None" val="trial_run" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="Plus"/>
+    <Routine name="RSVP"/>
+    <Routine name="mcq"/>
+    <LoopTerminator name="trial_run"/>
+    <Routine name="break_2"/>
+    <LoopInitiator loopType="TrialHandler" name="run1">
+      <Param name="Selected rows" updates="None" val="" valType="code"/>
+      <Param name="conditions" updates="None" val="[{'distractor_category': 'high_arousal_positive', 'w_1': 'history', 'c_1': 'white', 'w_2': 'concentrate', 'c_2': 'white', 'w_3': 'black', 'c_3': 'white', 'w_4': 'morgue', 'c_4': 'white', 'w_5': 'corridor', 'c_5': 'white', 'w_6': 'scapegoat', 'c_6': 'white', 'w_7': 'infatuation', 'c_7': 'red', 'w_8': 'measles', 'c_8': 'white', 'w_9': 'paper', 'c_9': 'white', 'w_10': 'louse', 'c_10': 'white', 'w_11': 'dreary', 'c_11': 'white', 'w_12': 'hat', 'c_12': 'white', 'w_13': 'illness', 'c_13': 'white', 'w_14': 'reptile', 'c_14': 'white', 'w_15': 'butter', 'c_15': 'white', 'mcq_option_1': 'bowl', 'mcq_option_2': 'utensil', 'mcq_option_3': 'square', 'mcq_option_4': 'paper', 'correct_key': 4}, {'distractor_category': 'high_arousal_negative', 'w_1': 'alone', 'c_1': 'white', 'w_2': 'flabby', 'c_2': 'white', 'w_3': 'bland', 'c_3': 'white', 'w_4': 'column', 'c_4': 'white', 'w_5': 'elbow', 'c_5': 'white', 'w_6': 'sissy', 'c_6': 'white', 'w_7': 'danger', 'c_7': 'red', 'w_8': 'fever', 'c_8': 'white', 'w_9': 'bowl', 'c_9': 'white', 'w_10': 'gripe', 'c_10': 'white', 'w_11': 'pus', 'c_11': 'white', 'w_12': 'inferior', 'c_12': 'white', 'w_13': 'lamp', 'c_13': 'white', 'w_14': 'immature', 'c_14': 'white', 'w_15': 'slime', 'c_15': 'white', 'mcq_option_1': 'bench', 'mcq_option_2': 'bandage', 'mcq_option_3': 'bowl', 'mcq_option_4': 'chair', 'correct_key': 3}, {'distractor_category': 'low_arousal_negative', 'w_1': 'rough', 'c_1': 'white', 'w_2': 'statue', 'c_2': 'white', 'w_3': 'neurotic', 'c_3': 'white', 'w_4': 'bandage', 'c_4': 'white', 'w_5': 'gripe', 'c_5': 'white', 'w_6': 'bland', 'c_6': 'white', 'w_7': 'murderer', 'c_7': 'red', 'w_8': 'phase', 'c_8': 'white', 'w_9': 'curtains', 'c_9': 'white', 'w_10': 'bullet', 'c_10': 'white', 'w_11': 'messy', 'c_11': 'white', 'w_12': 'dreary', 'c_12': 'white', 'w_13': 'blubber', 'c_13': 'white', 'w_14': 'activate', 'c_14': 'white', 'w_15': 'blind', 'c_15': 'white', 'mcq_option_1': 'elbow', 'mcq_option_2': 'curtains', 'mcq_option_3': 'lamp', 'mcq_option_4': 'bowl', 'correct_key': 2}, {'distractor_category': 'neutral', 'w_1': 'fork', 'c_1': 'white', 'w_2': 'crime', 'c_2': 'white', 'w_3': 'ignorance', 'c_3': 'white', 'w_4': 'knot', 'c_4': 'white', 'w_5': 'razor', 'c_5': 'white', 'w_6': 'scapegoat', 'c_6': 'white', 'w_7': 'rain', 'c_7': 'red', 'w_8': 'obnoxious', 'c_8': 'white', 'w_9': 'barrel', 'c_9': 'white', 'w_10': 'dustpan', 'c_10': 'white', 'w_11': 'rain', 'c_11': 'white', 'w_12': 'disappoint', 'c_12': 'white', 'w_13': 'scorpion', 'c_13': 'white', 'w_14': 'basket', 'c_14': 'white', 'w_15': 'arm', 'c_15': 'white', 'mcq_option_1': 'paper', 'mcq_option_2': 'butter', 'mcq_option_3': 'umbrella', 'mcq_option_4': 'barrel', 'correct_key': 4}, {'distractor_category': 'high_arousal_positive', 'w_1': 'knot', 'c_1': 'white', 'w_2': 'contents', 'c_2': 'white', 'w_3': 'office', 'c_3': 'white', 'w_4': 'phase', 'c_4': 'white', 'w_5': 'blind', 'c_5': 'white', 'w_6': 'feeble', 'c_6': 'white', 'w_7': 'intercourse', 'c_7': 'red', 'w_8': 'statue', 'c_8': 'white', 'w_9': 'part', 'c_9': 'white', 'w_10': 'dirty', 'c_10': 'white', 'w_11': 'detached', 'c_11': 'white', 'w_12': 'lump', 'c_12': 'white', 'w_13': 'bored', 'c_13': 'white', 'w_14': 'depression', 'c_14': 'white', 'w_15': 'finger', 'c_15': 'white', 'mcq_option_1': 'vest', 'mcq_option_2': 'part', 'mcq_option_3': 'chin', 'mcq_option_4': 'lamp', 'correct_key': 2}, {'distractor_category': 'neutral', 'w_1': 'butter', 'c_1': 'white', 'w_2': 'item', 'c_2': 'white', 'w_3': 'industry', 'c_3': 'white', 'w_4': 'neglect', 'c_4': 'white', 'w_5': 'cork', 'c_5': 'white', 'w_6': 'contents', 'c_6': 'white', 'w_7': 'taxi', 'c_7': 'red', 'w_8': 'mutation', 'c_8': 'white', 'w_9': 'column', 'c_9': 'white', 'w_10': 'slow', 'c_10': 'white', 'w_11': 'square', 'c_11': 'white', 'w_12': 'industry', 'c_12': 'white', 'w_13': 'embattled', 'c_13': 'white', 'w_14': 'item', 'c_14': 'white', 'w_15': 'disdainful', 'c_15': 'white', 'mcq_option_1': 'kerchief', 'mcq_option_2': 'column', 'mcq_option_3': 'hairdryer', 'mcq_option_4': 'umbrella', 'correct_key': 2}, {'distractor_category': 'high_arousal_negative', 'w_1': 'glass', 'c_1': 'white', 'w_2': 'hay', 'c_2': 'white', 'w_3': 'absurd', 'c_3': 'white', 'w_4': 'crime', 'c_4': 'white', 'w_5': 'headlight', 'c_5': 'white', 'w_6': 'lamp', 'c_6': 'white', 'w_7': 'fire', 'c_7': 'red', 'w_8': 'bullet', 'c_8': 'white', 'w_9': 'cabinet', 'c_9': 'white', 'w_10': 'disappoint', 'c_10': 'white', 'w_11': 'finger', 'c_11': 'white', 'w_12': 'office', 'c_12': 'white', 'w_13': 'alone', 'c_13': 'white', 'w_14': 'avenue', 'c_14': 'white', 'w_15': 'burial', 'c_15': 'white', 'mcq_option_1': 'door', 'mcq_option_2': 'jug', 'mcq_option_3': 'lamp', 'mcq_option_4': 'cabinet', 'correct_key': 4}, {'distractor_category': 'high_arousal_positive', 'w_1': 'sphere', 'c_1': 'white', 'w_2': 'headache', 'c_2': 'white', 'w_3': 'skull', 'c_3': 'white', 'w_4': 'ankle', 'c_4': 'white', 'w_5': 'foot', 'c_5': 'white', 'w_6': 'blister', 'c_6': 'white', 'w_7': 'intimate', 'c_7': 'red', 'w_8': 'greed', 'c_8': 'white', 'w_9': 'patent', 'c_9': 'white', 'w_10': 'mosquito', 'c_10': 'white', 'w_11': 'month', 'c_11': 'white', 'w_12': 'scar', 'c_12': 'white', 'w_13': 'corner', 'c_13': 'white', 'w_14': 'kick', 'c_14': 'white', 'w_15': 'heroin', 'c_15': 'white', 'mcq_option_1': 'banner', 'mcq_option_2': 'errand', 'mcq_option_3': 'bench', 'mcq_option_4': 'patent', 'correct_key': 4}, {'distractor_category': 'low_arousal_negative', 'w_1': 'scum', 'c_1': 'white', 'w_2': 'germs', 'c_2': 'white', 'w_3': 'hydrant', 'c_3': 'white', 'w_4': 'kick', 'c_4': 'white', 'w_5': 'errand', 'c_5': 'white', 'w_6': 'square', 'c_6': 'red', 'w_7': 'muddy', 'c_7': 'white', 'w_8': 'item', 'c_8': 'white', 'w_9': 'allergy', 'c_9': 'white', 'w_10': 'abortion', 'c_10': 'white', 'w_11': 'corpse', 'c_11': 'white', 'w_12': 'hammer', 'c_12': 'white', 'w_13': 'paralysis', 'c_13': 'white', 'w_14': 'neurotic', 'c_14': 'white', 'w_15': 'blubber', 'c_15': 'white', 'mcq_option_1': 'subdued', 'mcq_option_2': 'item', 'mcq_option_3': 'ink', 'mcq_option_4': 'lamp', 'correct_key': 2}, {'distractor_category': 'high_arousal_negative', 'w_1': 'sad', 'c_1': 'white', 'w_2': 'cork', 'c_2': 'white', 'w_3': 'building', 'c_3': 'white', 'w_4': 'chin', 'c_4': 'white', 'w_5': 'hard', 'c_5': 'white', 'w_6': 'intruder', 'c_6': 'red', 'w_7': 'shriek', 'c_7': 'white', 'w_8': 'cork', 'c_8': 'white', 'w_9': 'skull', 'c_9': 'white', 'w_10': 'lawsuit', 'c_10': 'white', 'w_11': 'pig', 'c_11': 'white', 'w_12': 'fat', 'c_12': 'white', 'w_13': 'slime', 'c_13': 'white', 'w_14': 'obesity', 'c_14': 'white', 'w_15': 'inferior', 'c_15': 'white', 'mcq_option_1': 'cork', 'mcq_option_2': 'butter', 'mcq_option_3': 'square', 'mcq_option_4': 'bowl', 'correct_key': 1}, {'distractor_category': 'high_arousal_negative', 'w_1': 'column', 'c_1': 'white', 'w_2': 'concentrate', 'c_2': 'white', 'w_3': 'scornful', 'c_3': 'white', 'w_4': 'poverty', 'c_4': 'white', 'w_5': 'illness', 'c_5': 'white', 'w_6': 'crash', 'c_6': 'red', 'w_7': 'fungus', 'c_7': 'white', 'w_8': 'board', 'c_8': 'white', 'w_9': 'elevator', 'c_9': 'white', 'w_10': 'insect', 'c_10': 'white', 'w_11': 'frigid', 'c_11': 'white', 'w_12': 'hard', 'c_12': 'white', 'w_13': 'contents', 'c_13': 'white', 'w_14': 'scorching', 'c_14': 'white', 'w_15': 'shadow', 'c_15': 'white', 'mcq_option_1': 'board', 'mcq_option_2': 'mantel', 'mcq_option_3': 'hairpin', 'mcq_option_4': 'egg', 'correct_key': 1}, {'distractor_category': 'low_arousal_positive', 'w_1': 'handicap', 'c_1': 'white', 'w_2': 'jug', 'c_2': 'white', 'w_3': 'addicted', 'c_3': 'white', 'w_4': 'mutation', 'c_4': 'white', 'w_5': 'scorching', 'c_5': 'white', 'w_6': 'comfort', 'c_6': 'red', 'w_7': 'ennui', 'c_7': 'white', 'w_8': 'tower', 'c_8': 'white', 'w_9': 'bored', 'c_9': 'white', 'w_10': 'glass', 'c_10': 'white', 'w_11': 'indifferent', 'c_11': 'white', 'w_12': 'depression', 'c_12': 'white', 'w_13': 'blubber', 'c_13': 'white', 'w_14': 'glacier', 'c_14': 'white', 'w_15': 'bench', 'c_15': 'white', 'mcq_option_1': 'tower', 'mcq_option_2': 'patent', 'mcq_option_3': 'violin', 'mcq_option_4': 'part', 'correct_key': 1}, {'distractor_category': 'high_arousal_positive', 'w_1': 'stagnant', 'c_1': 'white', 'w_2': 'odd', 'c_2': 'white', 'w_3': 'plain', 'c_3': 'white', 'w_4': 'hammer', 'c_4': 'white', 'w_5': 'rigid', 'c_5': 'white', 'w_6': 'adventure', 'c_6': 'red', 'w_7': 'muddy', 'c_7': 'white', 'w_8': 'kerchief', 'c_8': 'white', 'w_9': 'lice', 'c_9': 'white', 'w_10': 'chair', 'c_10': 'white', 'w_11': 'kerchief', 'c_11': 'white', 'w_12': 'misery', 'c_12': 'white', 'w_13': 'kettle', 'c_13': 'white', 'w_14': 'impair', 'c_14': 'white', 'w_15': 'sphere', 'c_15': 'white', 'mcq_option_1': 'kerchief', 'mcq_option_2': 'poster', 'mcq_option_3': 'violin', 'mcq_option_4': 'building', 'correct_key': 1}, {'distractor_category': 'low_arousal_positive', 'w_1': 'pity', 'c_1': 'white', 'w_2': 'bored', 'c_2': 'white', 'w_3': 'beggar', 'c_3': 'white', 'w_4': 'addicted', 'c_4': 'white', 'w_5': 'cork', 'c_5': 'white', 'w_6': 'butterfly', 'c_6': 'red', 'w_7': 'reptile', 'c_7': 'white', 'w_8': 'table', 'c_8': 'white', 'w_9': 'noose', 'c_9': 'white', 'w_10': 'obscene', 'c_10': 'white', 'w_11': 'blase', 'c_11': 'white', 'w_12': 'coffin', 'c_12': 'white', 'w_13': 'sick', 'c_13': 'white', 'w_14': 'context', 'c_14': 'white', 'w_15': 'louse', 'c_15': 'white', 'mcq_option_1': 'tower', 'mcq_option_2': 'cabinet', 'mcq_option_3': 'hay', 'mcq_option_4': 'table', 'correct_key': 4}, {'distractor_category': 'low_arousal_negative', 'w_1': 'sick', 'c_1': 'white', 'w_2': 'black', 'c_2': 'white', 'w_3': 'skeptical', 'c_3': 'white', 'w_4': 'rain', 'c_4': 'white', 'w_5': 'gripe', 'c_5': 'white', 'w_6': 'slow', 'c_6': 'red', 'w_7': 'bereavement', 'c_7': 'white', 'w_8': 'iron', 'c_8': 'white', 'w_9': 'indifferent', 'c_9': 'white', 'w_10': 'machine', 'c_10': 'white', 'w_11': 'messy', 'c_11': 'white', 'w_12': 'poster', 'c_12': 'white', 'w_13': 'hide', 'c_13': 'white', 'w_14': 'aloof', 'c_14': 'white', 'w_15': 'scissors', 'c_15': 'white', 'mcq_option_1': 'corridor', 'mcq_option_2': 'chin', 'mcq_option_3': 'iron', 'mcq_option_4': 'engine', 'correct_key': 3}, {'distractor_category': 'neutral', 'w_1': 'locker', 'c_1': 'white', 'w_2': 'lice', 'c_2': 'white', 'w_3': 'hinder', 'c_3': 'white', 'w_4': 'hide', 'c_4': 'white', 'w_5': 'defeated', 'c_5': 'white', 'w_6': 'tower', 'c_6': 'red', 'w_7': 'measles', 'c_7': 'white', 'w_8': 'cork', 'c_8': 'white', 'w_9': 'blister', 'c_9': 'white', 'w_10': 'engine', 'c_10': 'white', 'w_11': 'bench', 'c_11': 'white', 'w_12': 'immoral', 'c_12': 'white', 'w_13': 'cork', 'c_13': 'white', 'w_14': 'depression', 'c_14': 'white', 'w_15': 'feeble', 'c_15': 'white', 'mcq_option_1': 'curtains', 'mcq_option_2': 'bus', 'mcq_option_3': 'cork', 'mcq_option_4': 'bowl', 'correct_key': 3}, {'distractor_category': 'neutral', 'w_1': 'immature', 'c_1': 'white', 'w_2': 'overcast', 'c_2': 'white', 'w_3': 'needle', 'c_3': 'white', 'w_4': 'aloof', 'c_4': 'white', 'w_5': 'sphere', 'c_5': 'red', 'w_6': 'sissy', 'c_6': 'white', 'w_7': 'bowl', 'c_7': 'white', 'w_8': 'hydrant', 'c_8': 'white', 'w_9': 'hay', 'c_9': 'white', 'w_10': 'garbage', 'c_10': 'white', 'w_11': 'scornful', 'c_11': 'white', 'w_12': 'bland', 'c_12': 'white', 'w_13': 'corridor', 'c_13': 'white', 'w_14': 'mucus', 'c_14': 'white', 'w_15': 'machine', 'c_15': 'white', 'mcq_option_1': 'cork', 'mcq_option_2': 'bowl', 'mcq_option_3': 'part', 'mcq_option_4': 'banner', 'correct_key': 2}, {'distractor_category': 'low_arousal_positive', 'w_1': 'lazy', 'c_1': 'white', 'w_2': 'bland', 'c_2': 'white', 'w_3': 'grief', 'c_3': 'white', 'w_4': 'cabinet', 'c_4': 'white', 'w_5': 'bath', 'c_5': 'red', 'w_6': 'cut', 'c_6': 'white', 'w_7': 'slush', 'c_7': 'white', 'w_8': 'shy', 'c_8': 'white', 'w_9': 'ink', 'c_9': 'white', 'w_10': 'spanking', 'c_10': 'white', 'w_11': 'curtains', 'c_11': 'white', 'w_12': 'mantel', 'c_12': 'white', 'w_13': 'skull', 'c_13': 'white', 'w_14': 'door', 'c_14': 'white', 'w_15': 'rusty', 'c_15': 'white', 'mcq_option_1': 'fork', 'mcq_option_2': 'inhabitant', 'mcq_option_3': 'item', 'mcq_option_4': 'slush', 'correct_key': 4}, {'distractor_category': 'low_arousal_positive', 'w_1': 'sad', 'c_1': 'white', 'w_2': 'mold', 'c_2': 'white', 'w_3': 'scurvy', 'c_3': 'white', 'w_4': 'cannon', 'c_4': 'white', 'w_5': 'color', 'c_5': 'red', 'w_6': 'jug', 'c_6': 'white', 'w_7': 'thermometer', 'c_7': 'white', 'w_8': 'rancid', 'c_8': 'white', 'w_9': 'history', 'c_9': 'white', 'w_10': 'egg', 'c_10': 'white', 'w_11': 'louse', 'c_11': 'white', 'w_12': 'lesbian', 'c_12': 'white', 'w_13': 'bowl', 'c_13': 'white', 'w_14': 'coarse', 'c_14': 'white', 'w_15': 'gripe', 'c_15': 'white', 'mcq_option_1': 'corridor', 'mcq_option_2': 'thermometer', 'mcq_option_3': 'bowl', 'mcq_option_4': 'bandage', 'correct_key': 2}, {'distractor_category': 'high_arousal_negative', 'w_1': 'coffin', 'c_1': 'white', 'w_2': 'grief', 'c_2': 'white', 'w_3': 'contents', 'c_3': 'white', 'w_4': 'louse', 'c_4': 'white', 'w_5': 'enraged', 'c_5': 'red', 'w_6': 'fur', 'c_6': 'white', 'w_7': 'bus', 'c_7': 'white', 'w_8': 'frigid', 'c_8': 'white', 'w_9': 'army', 'c_9': 'white', 'w_10': 'inferior', 'c_10': 'white', 'w_11': 'metal', 'c_11': 'white', 'w_12': 'plain', 'c_12': 'white', 'w_13': 'knot', 'c_13': 'white', 'w_14': 'listless', 'c_14': 'white', 'w_15': 'pus', 'c_15': 'white', 'mcq_option_1': 'pamphlet', 'mcq_option_2': 'chair', 'mcq_option_3': 'square', 'mcq_option_4': 'bus', 'correct_key': 4}, {'distractor_category': 'low_arousal_positive', 'w_1': 'rat', 'c_1': 'white', 'w_2': 'hungry', 'c_2': 'white', 'w_3': 'dark', 'c_3': 'white', 'w_4': 'habit', 'c_4': 'white', 'w_5': 'carefree', 'c_5': 'red', 'w_6': 'rattle', 'c_6': 'white', 'w_7': 'taxi', 'c_7': 'white', 'w_8': 'dump', 'c_8': 'white', 'w_9': 'decompose', 'c_9': 'white', 'w_10': 'measles', 'c_10': 'white', 'w_11': 'iron', 'c_11': 'white', 'w_12': 'beggar', 'c_12': 'white', 'w_13': 'bench', 'c_13': 'white', 'w_14': 'corridor', 'c_14': 'white', 'w_15': 'paper', 'c_15': 'white', 'mcq_option_1': 'tower', 'mcq_option_2': 'finger', 'mcq_option_3': 'taxi', 'mcq_option_4': 'chin', 'correct_key': 3}, {'distractor_category': 'high_arousal_positive', 'w_1': 'contents', 'c_1': 'white', 'w_2': 'nonchalant', 'c_2': 'white', 'w_3': 'fault', 'c_3': 'white', 'w_4': 'deformed', 'c_4': 'white', 'w_5': 'miracle', 'c_5': 'red', 'w_6': 'journal', 'c_6': 'white', 'w_7': 'quart', 'c_7': 'white', 'w_8': 'plain', 'c_8': 'white', 'w_9': 'jug', 'c_9': 'white', 'w_10': 'shadow', 'c_10': 'white', 'w_11': 'mosquito', 'c_11': 'white', 'w_12': 'dump', 'c_12': 'white', 'w_13': 'ennui', 'c_13': 'white', 'w_14': 'excuse', 'c_14': 'white', 'w_15': 'board', 'c_15': 'white', 'mcq_option_1': 'jug', 'mcq_option_2': 'quart', 'mcq_option_3': 'utensil', 'mcq_option_4': 'taxi', 'correct_key': 2}, {'distractor_category': 'low_arousal_negative', 'w_1': 'corpse', 'c_1': 'white', 'w_2': 'blasphemy', 'c_2': 'white', 'w_3': 'statue', 'c_3': 'white', 'w_4': 'cork', 'c_4': 'white', 'w_5': 'mantel', 'c_5': 'red', 'w_6': 'paper', 'c_6': 'white', 'w_7': 'hairpin', 'c_7': 'white', 'w_8': 'neglect', 'c_8': 'white', 'w_9': 'rigid', 'c_9': 'white', 'w_10': 'razor', 'c_10': 'white', 'w_11': 'broken', 'c_11': 'white', 'w_12': 'allergy', 'c_12': 'white', 'w_13': 'kerosene', 'c_13': 'white', 'w_14': 'death', 'c_14': 'white', 'w_15': 'carcass', 'c_15': 'white', 'mcq_option_1': 'history', 'mcq_option_2': 'fork', 'mcq_option_3': 'hairpin', 'mcq_option_4': 'jug', 'correct_key': 3}, {'distractor_category': 'low_arousal_positive', 'w_1': 'solemn', 'c_1': 'white', 'w_2': 'overcast', 'c_2': 'white', 'w_3': 'sad', 'c_3': 'white', 'w_4': 'busybody', 'c_4': 'white', 'w_5': 'brother', 'c_5': 'red', 'w_6': 'pungent', 'c_6': 'white', 'w_7': 'street', 'c_7': 'white', 'w_8': 'louse', 'c_8': 'white', 'w_9': 'disgusted', 'c_9': 'white', 'w_10': 'discouraged', 'c_10': 'white', 'w_11': 'broken', 'c_11': 'white', 'w_12': 'narcotic', 'c_12': 'white', 'w_13': 'obnoxious', 'c_13': 'white', 'w_14': 'jail', 'c_14': 'white', 'w_15': 'chin', 'c_15': 'white', 'mcq_option_1': 'fork', 'mcq_option_2': 'bus', 'mcq_option_3': 'cork', 'mcq_option_4': 'street', 'correct_key': 4}, {'distractor_category': 'low_arousal_negative', 'w_1': 'scar', 'c_1': 'white', 'w_2': 'headlight', 'c_2': 'white', 'w_3': 'massacre', 'c_3': 'white', 'w_4': 'louse', 'c_4': 'white', 'w_5': 'dustpan', 'c_5': 'red', 'w_6': 'hell', 'c_6': 'white', 'w_7': 'errand', 'c_7': 'white', 'w_8': 'hardship', 'c_8': 'white', 'w_9': 'maniac', 'c_9': 'white', 'w_10': 'icebox', 'c_10': 'white', 'w_11': 'glacier', 'c_11': 'white', 'w_12': 'obnoxious', 'c_12': 'white', 'w_13': 'measles', 'c_13': 'white', 'w_14': 'ache', 'c_14': 'white', 'w_15': 'excuse', 'c_15': 'white', 'mcq_option_1': 'errand', 'mcq_option_2': 'arm', 'mcq_option_3': 'curtains', 'mcq_option_4': 'bus', 'correct_key': 1}, {'distractor_category': 'neutral', 'w_1': 'pamphlet', 'c_1': 'white', 'w_2': 'filth', 'c_2': 'white', 'w_3': 'poster', 'c_3': 'white', 'w_4': 'filth', 'c_4': 'white', 'w_5': 'wagon', 'c_5': 'red', 'w_6': 'lice', 'c_6': 'white', 'w_7': 'elbow', 'c_7': 'white', 'w_8': 'bullet', 'c_8': 'white', 'w_9': 'hat', 'c_9': 'white', 'w_10': 'dirt', 'c_10': 'white', 'w_11': 'board', 'c_11': 'white', 'w_12': 'sick', 'c_12': 'white', 'w_13': 'journal', 'c_13': 'white', 'w_14': 'pungent', 'c_14': 'white', 'w_15': 'discomfort', 'c_15': 'white', 'mcq_option_1': 'seat', 'mcq_option_2': 'shy', 'mcq_option_3': 'column', 'mcq_option_4': 'elbow', 'correct_key': 4}, {'distractor_category': 'high_arousal_negative', 'w_1': 'scar', 'c_1': 'white', 'w_2': 'aloof', 'c_2': 'white', 'w_3': 'lesbian', 'c_3': 'white', 'w_4': 'messy', 'c_4': 'white', 'w_5': 'hate', 'c_5': 'red', 'w_6': 'handicap', 'c_6': 'white', 'w_7': 'chin', 'c_7': 'white', 'w_8': 'inferior', 'c_8': 'white', 'w_9': 'alley', 'c_9': 'white', 'w_10': 'inhabitant', 'c_10': 'white', 'w_11': 'indifferent', 'c_11': 'white', 'w_12': 'alone', 'c_12': 'white', 'w_13': 'severe', 'c_13': 'white', 'w_14': 'rancid', 'c_14': 'white', 'w_15': 'statue', 'c_15': 'white', 'mcq_option_1': 'taxi', 'mcq_option_2': 'locker', 'mcq_option_3': 'lamp', 'mcq_option_4': 'chin', 'correct_key': 4}, {'distractor_category': 'high_arousal_positive', 'w_1': 'chin', 'c_1': 'white', 'w_2': 'black', 'c_2': 'white', 'w_3': 'blister', 'c_3': 'white', 'w_4': 'massacre', 'c_4': 'white', 'w_5': 'cash', 'c_5': 'red', 'w_6': 'habit', 'c_6': 'white', 'w_7': 'kettle', 'c_7': 'white', 'w_8': 'coward', 'c_8': 'white', 'w_9': 'context', 'c_9': 'white', 'w_10': 'scar', 'c_10': 'white', 'w_11': 'nonsense', 'c_11': 'white', 'w_12': 'decompose', 'c_12': 'white', 'w_13': 'impotent', 'c_13': 'white', 'w_14': 'germs', 'c_14': 'white', 'w_15': 'nonchalant', 'c_15': 'white', 'mcq_option_1': 'machine', 'mcq_option_2': 'indifferent', 'mcq_option_3': 'hay', 'mcq_option_4': 'kettle', 'correct_key': 4}, {'distractor_category': 'neutral', 'w_1': 'germs', 'c_1': 'white', 'w_2': 'hard', 'c_2': 'white', 'w_3': 'malaria', 'c_3': 'white', 'w_4': 'penalty', 'c_4': 'white', 'w_5': 'vest', 'c_5': 'red', 'w_6': 'anguished', 'c_6': 'white', 'w_7': 'door', 'c_7': 'white', 'w_8': 'alone', 'c_8': 'white', 'w_9': 'history', 'c_9': 'white', 'w_10': 'blasphemy', 'c_10': 'white', 'w_11': 'mistake', 'c_11': 'white', 'w_12': 'embattled', 'c_12': 'white', 'w_13': 'cane', 'c_13': 'white', 'w_14': 'crutch', 'c_14': 'white', 'w_15': 'hide', 'c_15': 'white', 'mcq_option_1': 'door', 'mcq_option_2': 'banner', 'mcq_option_3': 'cord', 'mcq_option_4': 'lamp', 'correct_key': 1}, {'distractor_category': 'low_arousal_negative', 'w_1': 'mantel', 'c_1': 'white', 'w_2': 'fur', 'c_2': 'white', 'w_3': 'cabinet', 'c_3': 'white', 'w_4': 'slow', 'c_4': 'white', 'w_5': 'board', 'c_5': 'red', 'w_6': 'scum', 'c_6': 'white', 'w_7': 'egg', 'c_7': 'white', 'w_8': 'morbid', 'c_8': 'white', 'w_9': 'column', 'c_9': 'white', 'w_10': 'rotten', 'c_10': 'white', 'w_11': 'industry', 'c_11': 'white', 'w_12': 'skull', 'c_12': 'white', 'w_13': 'manure', 'c_13': 'white', 'w_14': 'scorn', 'c_14': 'white', 'w_15': 'needle', 'c_15': 'white', 'mcq_option_1': 'egg', 'mcq_option_2': 'hydrant', 'mcq_option_3': 'errand', 'mcq_option_4': 'kerchief', 'correct_key': 1}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="run11.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="code"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="name" updates="None" val="run1" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="Plus"/>
+    <Routine name="RSVP"/>
+    <Routine name="mcq"/>
+    <LoopTerminator name="run1"/>
+    <Routine name="break_3"/>
+    <LoopInitiator loopType="TrialHandler" name="run2">
+      <Param name="Selected rows" updates="None" val="" valType="code"/>
+      <Param name="conditions" updates="None" val="[{'distractor_category': 'high_arousal_positive', 'w_1': 'hardship', 'c_1': 'white', 'w_2': 'impair', 'c_2': 'white', 'w_3': 'fault', 'c_3': 'white', 'w_4': 'rigid', 'c_4': 'white', 'w_5': 'meek', 'c_5': 'white', 'w_6': 'army', 'c_6': 'white', 'w_7': 'lamp', 'c_7': 'white', 'w_8': 'shamed', 'c_8': 'white', 'w_9': 'erotic', 'c_9': 'red', 'w_10': 'industry', 'c_10': 'white', 'w_11': 'machine', 'c_11': 'white', 'w_12': 'rattle', 'c_12': 'white', 'w_13': 'bowl', 'c_13': 'white', 'w_14': 'neurotic', 'c_14': 'white', 'w_15': 'disappoint', 'c_15': 'white', 'mcq_option_1': 'basket', 'mcq_option_2': 'reserved', 'mcq_option_3': 'cabinet', 'mcq_option_4': 'machine', 'correct_key': 4}, {'distractor_category': 'neutral', 'w_1': 'concentrate', 'c_1': 'white', 'w_2': 'abortion', 'c_2': 'white', 'w_3': 'heroin', 'c_3': 'white', 'w_4': 'bullet', 'c_4': 'white', 'w_5': 'paper', 'c_5': 'white', 'w_6': 'machine', 'c_6': 'white', 'w_7': 'foot', 'c_7': 'white', 'w_8': 'arm', 'c_8': 'white', 'w_9': 'subdued', 'c_9': 'red', 'w_10': 'bereavement', 'c_10': 'white', 'w_11': 'chair', 'c_11': 'white', 'w_12': 'cane', 'c_12': 'white', 'w_13': 'impotent', 'c_13': 'white', 'w_14': 'obscene', 'c_14': 'white', 'w_15': 'cord', 'c_15': 'white', 'mcq_option_1': 'utensil', 'mcq_option_2': 'curtains', 'mcq_option_3': 'chair', 'mcq_option_4': 'elbow', 'correct_key': 3}, {'distractor_category': 'low_arousal_positive', 'w_1': 'patient', 'c_1': 'white', 'w_2': 'rattle', 'c_2': 'white', 'w_3': 'narcotic', 'c_3': 'white', 'w_4': 'crutch', 'c_4': 'white', 'w_5': 'cord', 'c_5': 'white', 'w_6': 'door', 'c_6': 'white', 'w_7': 'board', 'c_7': 'white', 'w_8': 'hooker', 'c_8': 'white', 'w_9': 'easy', 'c_9': 'red', 'w_10': 'grief', 'c_10': 'white', 'w_11': 'wagon', 'c_11': 'white', 'w_12': 'anguished', 'c_12': 'white', 'w_13': 'corner', 'c_13': 'white', 'w_14': 'aloof', 'c_14': 'white', 'w_15': 'mold', 'c_15': 'white', 'mcq_option_1': 'wagon', 'mcq_option_2': 'kerchief', 'mcq_option_3': 'barrel', 'mcq_option_4': 'banner', 'correct_key': 1}, {'distractor_category': 'neutral', 'w_1': 'scorching', 'c_1': 'white', 'w_2': 'scum', 'c_2': 'white', 'w_3': 'shamed', 'c_3': 'white', 'w_4': 'nonsense', 'c_4': 'white', 'w_5': 'fur', 'c_5': 'white', 'w_6': 'slush', 'c_6': 'white', 'w_7': 'discomfort', 'c_7': 'white', 'w_8': 'dreary', 'c_8': 'white', 'w_9': 'table', 'c_9': 'red', 'w_10': 'rattle', 'c_10': 'white', 'w_11': 'chin', 'c_11': 'white', 'w_12': 'louse', 'c_12': 'white', 'w_13': 'kerosene', 'c_13': 'white', 'w_14': 'pus', 'c_14': 'white', 'w_15': 'bench', 'c_15': 'white', 'mcq_option_1': 'engine', 'mcq_option_2': 'cork', 'mcq_option_3': 'chin', 'mcq_option_4': 'stomach', 'correct_key': 3}, {'distractor_category': 'neutral', 'w_1': 'derelict', 'c_1': 'white', 'w_2': 'rough', 'c_2': 'white', 'w_3': 'glass', 'c_3': 'white', 'w_4': 'context', 'c_4': 'white', 'w_5': 'army', 'c_5': 'white', 'w_6': 'scorn', 'c_6': 'white', 'w_7': 'pig', 'c_7': 'white', 'w_8': 'month', 'c_8': 'white', 'w_9': 'violin', 'c_9': 'red', 'w_10': 'barrel', 'c_10': 'white', 'w_11': 'egg', 'c_11': 'white', 'w_12': 'prick', 'c_12': 'white', 'w_13': 'corridor', 'c_13': 'white', 'w_14': 'cellar', 'c_14': 'white', 'w_15': 'grime', 'c_15': 'white', 'mcq_option_1': 'paper', 'mcq_option_2': 'fork', 'mcq_option_3': 'egg', 'mcq_option_4': 'board', 'correct_key': 3}, {'distractor_category': 'high_arousal_negative', 'w_1': 'anguished', 'c_1': 'white', 'w_2': 'cellar', 'c_2': 'white', 'w_3': 'hat', 'c_3': 'white', 'w_4': False, 'c_4': 'white', 'w_5': 'sphere', 'c_5': 'white', 'w_6': 'penalty', 'c_6': 'white', 'w_7': 'arm', 'c_7': 'white', 'w_8': 'icebox', 'c_8': 'white', 'w_9': 'fear', 'c_9': 'red', 'w_10': 'lawsuit', 'c_10': 'white', 'w_11': 'butter', 'c_11': 'white', 'w_12': 'muddy', 'c_12': 'white', 'w_13': 'coffin', 'c_13': 'white', 'w_14': 'fungus', 'c_14': 'white', 'w_15': 'stagnant', 'c_15': 'white', 'mcq_option_1': 'butter', 'mcq_option_2': 'corridor', 'mcq_option_3': 'subdued', 'mcq_option_4': 'bandage', 'correct_key': 1}, {'distractor_category': 'neutral', 'w_1': 'burial', 'c_1': 'white', 'w_2': 'icebox', 'c_2': 'white', 'w_3': 'lump', 'c_3': 'white', 'w_4': 'fault', 'c_4': 'white', 'w_5': 'insolent', 'c_5': 'white', 'w_6': 'maggot', 'c_6': 'white', 'w_7': 'radiator', 'c_7': 'white', 'w_8': 'germs', 'c_8': 'white', 'w_9': 'seat', 'c_9': 'red', 'w_10': 'activate', 'c_10': 'white', 'w_11': 'bench', 'c_11': 'white', 'w_12': 'scornful', 'c_12': 'white', 'w_13': 'bland', 'c_13': 'white', 'w_14': 'contents', 'c_14': 'white', 'w_15': 'pamphlet', 'c_15': 'white', 'mcq_option_1': 'hairdryer', 'mcq_option_2': 'bench', 'mcq_option_3': 'chin', 'mcq_option_4': 'pencil', 'correct_key': 2}, {'distractor_category': 'neutral', 'w_1': 'addicted', 'c_1': 'white', 'w_2': 'dirt', 'c_2': 'white', 'w_3': 'curtains', 'c_3': 'white', 'w_4': 'cord', 'c_4': 'white', 'w_5': 'skeptical', 'c_5': 'white', 'w_6': 'dummy', 'c_6': 'white', 'w_7': 'sissy', 'c_7': 'white', 'w_8': 'blind', 'c_8': 'white', 'w_9': 'statue', 'c_9': 'red', 'w_10': 'overcast', 'c_10': 'white', 'w_11': 'bus', 'c_11': 'white', 'w_12': 'bench', 'c_12': 'white', 'w_13': 'door', 'c_13': 'white', 'w_14': 'depression', 'c_14': 'white', 'w_15': 'disdainful', 'c_15': 'white', 'mcq_option_1': 'building', 'mcq_option_2': 'inhabitant', 'mcq_option_3': 'bus', 'mcq_option_4': 'item', 'correct_key': 3}, {'distractor_category': 'low_arousal_negative', 'w_1': 'alone', 'c_1': 'white', 'w_2': 'kerosene', 'c_2': 'white', 'w_3': 'discouraged', 'c_3': 'white', 'w_4': 'scorching', 'c_4': 'white', 'w_5': 'skeptical', 'c_5': 'white', 'w_6': 'gripe', 'c_6': 'white', 'w_7': 'discomfort', 'c_7': 'white', 'w_8': 'paper', 'c_8': 'white', 'w_9': 'nonchalant', 'c_9': 'red', 'w_10': 'inferior', 'c_10': 'white', 'w_11': 'history', 'c_11': 'white', 'w_12': 'rough', 'c_12': 'white', 'w_13': 'abortion', 'c_13': 'white', 'w_14': 'cellar', 'c_14': 'white', 'w_15': 'cane', 'c_15': 'white', 'mcq_option_1': 'history', 'mcq_option_2': 'elbow', 'mcq_option_3': 'arm', 'mcq_option_4': 'square', 'correct_key': 1}, {'distractor_category': 'neutral', 'w_1': 'idiot', 'c_1': 'white', 'w_2': 'maggot', 'c_2': 'white', 'w_3': 'pungent', 'c_3': 'white', 'w_4': 'blister', 'c_4': 'white', 'w_5': 'cane', 'c_5': 'white', 'w_6': 'addicted', 'c_6': 'white', 'w_7': 'rigid', 'c_7': 'white', 'w_8': 'cold', 'c_8': 'white', 'w_9': 'slush', 'c_9': 'red', 'w_10': 'inferior', 'c_10': 'white', 'w_11': 'board', 'c_11': 'white', 'w_12': 'discouraged', 'c_12': 'white', 'w_13': 'insect', 'c_13': 'white', 'w_14': 'pus', 'c_14': 'white', 'w_15': 'flabby', 'c_15': 'white', 'mcq_option_1': 'blase', 'mcq_option_2': 'bowl', 'mcq_option_3': 'board', 'mcq_option_4': 'chin', 'correct_key': 3}, {'distractor_category': 'neutral', 'w_1': 'machine', 'c_1': 'white', 'w_2': 'rancid', 'c_2': 'white', 'w_3': 'measles', 'c_3': 'white', 'w_4': 'grief', 'c_4': 'white', 'w_5': 'corpse', 'c_5': 'white', 'w_6': 'nuisance', 'c_6': 'white', 'w_7': 'foot', 'c_7': 'white', 'w_8': 'massacre', 'c_8': 'white', 'w_9': 'thermometer', 'c_9': 'red', 'w_10': 'fur', 'c_10': 'white', 'w_11': 'cord', 'c_11': 'white', 'w_12': 'muddy', 'c_12': 'white', 'w_13': 'filth', 'c_13': 'white', 'w_14': 'crude', 'c_14': 'white', 'w_15': 'fat', 'c_15': 'white', 'mcq_option_1': 'umbrella', 'mcq_option_2': 'chair', 'mcq_option_3': 'cord', 'mcq_option_4': 'corridor', 'correct_key': 3}, {'distractor_category': 'high_arousal_negative', 'w_1': 'month', 'c_1': 'white', 'w_2': 'listless', 'c_2': 'white', 'w_3': 'insolent', 'c_3': 'white', 'w_4': 'paralysis', 'c_4': 'white', 'w_5': 'failure', 'c_5': 'white', 'w_6': 'burial', 'c_6': 'white', 'w_7': 'scum', 'c_7': 'white', 'w_8': 'abuse', 'c_8': 'red', 'w_9': 'bandage', 'c_9': 'white', 'w_10': 'arm', 'c_10': 'white', 'w_11': 'reverent', 'c_11': 'white', 'w_12': 'haphazard', 'c_12': 'white', 'w_13': 'beggar', 'c_13': 'white', 'w_14': 'scapegoat', 'c_14': 'white', 'w_15': 'contempt', 'c_15': 'white', 'mcq_option_1': 'engine', 'mcq_option_2': 'board', 'mcq_option_3': 'item', 'mcq_option_4': 'arm', 'correct_key': 4}, {'distractor_category': 'low_arousal_negative', 'w_1': 'corridor', 'c_1': 'white', 'w_2': 'foot', 'c_2': 'white', 'w_3': 'scissors', 'c_3': 'white', 'w_4': 'mutation', 'c_4': 'white', 'w_5': 'chin', 'c_5': 'white', 'w_6': 'mucus', 'c_6': 'white', 'w_7': 'scornful', 'c_7': 'white', 'w_8': 'bland', 'c_8': 'red', 'w_9': 'dreary', 'c_9': 'white', 'w_10': 'door', 'c_10': 'white', 'w_11': 'infection', 'c_11': 'white', 'w_12': 'abortion', 'c_12': 'white', 'w_13': 'severe', 'c_13': 'white', 'w_14': 'headlight', 'c_14': 'white', 'w_15': 'manure', 'c_15': 'white', 'mcq_option_1': 'cabinet', 'mcq_option_2': 'hay', 'mcq_option_3': 'door', 'mcq_option_4': 'chin', 'correct_key': 3}, {'distractor_category': 'neutral', 'w_1': 'appliance', 'c_1': 'white', 'w_2': 'scorching', 'c_2': 'white', 'w_3': 'handicap', 'c_3': 'white', 'w_4': 'cell', 'c_4': 'white', 'w_5': 'shadow', 'c_5': 'white', 'w_6': 'bullet', 'c_6': 'white', 'w_7': 'patent', 'c_7': 'white', 'w_8': 'stomach', 'c_8': 'red', 'w_9': 'slum', 'c_9': 'white', 'w_10': 'butter', 'c_10': 'white', 'w_11': 'blister', 'c_11': 'white', 'w_12': 'helpless', 'c_12': 'white', 'w_13': 'failure', 'c_13': 'white', 'w_14': 'phase', 'c_14': 'white', 'w_15': 'crude', 'c_15': 'white', 'mcq_option_1': 'basket', 'mcq_option_2': 'chin', 'mcq_option_3': 'cord', 'mcq_option_4': 'butter', 'correct_key': 4}, {'distractor_category': 'low_arousal_negative', 'w_1': 'nasty', 'c_1': 'white', 'w_2': 'lice', 'c_2': 'white', 'w_3': 'headlight', 'c_3': 'white', 'w_4': 'fever', 'c_4': 'white', 'w_5': 'louse', 'c_5': 'white', 'w_6': 'journal', 'c_6': 'white', 'w_7': 'lesbian', 'c_7': 'white', 'w_8': 'messy', 'c_8': 'red', 'w_9': 'criminal', 'c_9': 'white', 'w_10': 'hay', 'c_10': 'white', 'w_11': 'dirt', 'c_11': 'white', 'w_12': 'cellar', 'c_12': 'white', 'w_13': 'dump', 'c_13': 'white', 'w_14': 'lump', 'c_14': 'white', 'w_15': 'corpse', 'c_15': 'white', 'mcq_option_1': 'item', 'mcq_option_2': 'headlight', 'mcq_option_3': 'hay', 'mcq_option_4': 'phase', 'correct_key': 3}, {'distractor_category': 'high_arousal_positive', 'w_1': 'poverty', 'c_1': 'white', 'w_2': 'army', 'c_2': 'white', 'w_3': 'ankle', 'c_3': 'white', 'w_4': 'dirt', 'c_4': 'white', 'w_5': 'broken', 'c_5': 'white', 'w_6': 'insect', 'c_6': 'white', 'w_7': 'egg', 'c_7': 'white', 'w_8': 'passion', 'c_8': 'red', 'w_9': 'bereavement', 'c_9': 'white', 'w_10': 'reserved', 'c_10': 'white', 'w_11': 'sad', 'c_11': 'white', 'w_12': 'failure', 'c_12': 'white', 'w_13': 'hungry', 'c_13': 'white', 'w_14': 'garbage', 'c_14': 'white', 'w_15': 'hinder', 'c_15': 'white', 'mcq_option_1': 'headlight', 'mcq_option_2': 'building', 'mcq_option_3': 'cabinet', 'mcq_option_4': 'reserved', 'correct_key': 4}, {'distractor_category': 'low_arousal_positive', 'w_1': 'context', 'c_1': 'white', 'w_2': 'penalty', 'c_2': 'white', 'w_3': 'habit', 'c_3': 'white', 'w_4': 'corpse', 'c_4': 'white', 'w_5': 'lump', 'c_5': 'white', 'w_6': 'pungent', 'c_6': 'white', 'w_7': 'scorn', 'c_7': 'white', 'w_8': 'easygoing', 'c_8': 'red', 'w_9': 'hairdryer', 'c_9': 'white', 'w_10': 'arm', 'c_10': 'white', 'w_11': 'anguished', 'c_11': 'white', 'w_12': 'indifferent', 'c_12': 'white', 'w_13': 'mold', 'c_13': 'white', 'w_14': 'kerosene', 'c_14': 'white', 'w_15': 'haphazard', 'c_15': 'white', 'mcq_option_1': 'locker', 'mcq_option_2': 'arm', 'mcq_option_3': 'nun', 'mcq_option_4': 'bandage', 'correct_key': 2}, {'distractor_category': 'neutral', 'w_1': 'mangle', 'c_1': 'white', 'w_2': 'spanking', 'c_2': 'white', 'w_3': 'kettle', 'c_3': 'white', 'w_4': 'rancid', 'c_4': 'white', 'w_5': 'iron', 'c_5': 'white', 'w_6': 'scorching', 'c_6': 'white', 'w_7': 'dirty', 'c_7': 'white', 'w_8': 'shy', 'c_8': 'red', 'w_9': 'manure', 'c_9': 'white', 'w_10': 'blase', 'c_10': 'white', 'w_11': 'maniac', 'c_11': 'white', 'w_12': 'gripe', 'c_12': 'white', 'w_13': 'coarse', 'c_13': 'white', 'w_14': 'clock', 'c_14': 'white', 'w_15': 'shadow', 'c_15': 'white', 'mcq_option_1': 'blase', 'mcq_option_2': 'egg', 'mcq_option_3': 'stomach', 'mcq_option_4': 'finger', 'correct_key': 1}, {'distractor_category': 'high_arousal_positive', 'w_1': 'chin', 'c_1': 'white', 'w_2': 'alley', 'c_2': 'white', 'w_3': 'idiot', 'c_3': 'white', 'w_4': 'square', 'c_4': 'white', 'w_5': 'maniac', 'c_5': 'white', 'w_6': 'nasty', 'c_6': 'white', 'w_7': 'scorching', 'c_7': 'white', 'w_8': 'orgasm', 'c_8': 'red', 'w_9': 'jug', 'c_9': 'white', 'w_10': 'rain', 'c_10': 'white', 'w_11': 'egg', 'c_11': 'white', 'w_12': 'metal', 'c_12': 'white', 'w_13': 'bored', 'c_13': 'white', 'w_14': 'cannon', 'c_14': 'white', 'w_15': 'corridor', 'c_15': 'white', 'mcq_option_1': 'patent', 'mcq_option_2': 'arm', 'mcq_option_3': 'shy', 'mcq_option_4': 'rain', 'correct_key': 4}, {'distractor_category': 'neutral', 'w_1': 'deformed', 'c_1': 'white', 'w_2': 'cemetery', 'c_2': 'white', 'w_3': 'beggar', 'c_3': 'white', 'w_4': 'discomfort', 'c_4': 'white', 'w_5': 'rough', 'c_5': 'white', 'w_6': 'slum', 'c_6': 'white', 'w_7': 'fall', 'c_7': 'white', 'w_8': 'umbrella', 'c_8': 'red', 'w_9': 'disappoint', 'c_9': 'white', 'w_10': 'corridor', 'c_10': 'white', 'w_11': 'skull', 'c_11': 'white', 'w_12': 'patient', 'c_12': 'white', 'w_13': 'cork', 'c_13': 'white', 'w_14': 'fever', 'c_14': 'white', 'w_15': 'dummy', 'c_15': 'white', 'mcq_option_1': 'item', 'mcq_option_2': 'corridor', 'mcq_option_3': 'headlight', 'mcq_option_4': 'building', 'correct_key': 2}, {'distractor_category': 'low_arousal_positive', 'w_1': 'dreary', 'c_1': 'white', 'w_2': 'burial', 'c_2': 'white', 'w_3': 'chin', 'c_3': 'white', 'w_4': 'butter', 'c_4': 'white', 'w_5': 'shadow', 'c_5': 'white', 'w_6': 'scorching', 'c_6': 'white', 'w_7': 'passage', 'c_7': 'white', 'w_8': 'dignified', 'c_8': 'red', 'w_9': 'knot', 'c_9': 'white', 'w_10': 'vest', 'c_10': 'white', 'w_11': 'cane', 'c_11': 'white', 'w_12': 'mucus', 'c_12': 'white', 'w_13': 'mutation', 'c_13': 'white', 'w_14': 'blind', 'c_14': 'white', 'w_15': 'heroin', 'c_15': 'white', 'mcq_option_1': 'vest', 'mcq_option_2': 'cork', 'mcq_option_3': 'finger', 'mcq_option_4': 'stomach', 'correct_key': 1}, {'distractor_category': 'low_arousal_negative', 'w_1': 'grime', 'c_1': 'white', 'w_2': 'reptile', 'c_2': 'white', 'w_3': 'blase', 'c_3': 'white', 'w_4': 'measles', 'c_4': 'white', 'w_5': 'lesbian', 'c_5': 'white', 'w_6': 'cellar', 'c_6': 'white', 'w_7': 'cell', 'c_7': 'white', 'w_8': 'lazy', 'c_8': 'red', 'w_9': 'skeptical', 'c_9': 'white', 'w_10': 'hairdryer', 'c_10': 'white', 'w_11': 'board', 'c_11': 'white', 'w_12': 'skull', 'c_12': 'white', 'w_13': 'crime', 'c_13': 'white', 'w_14': 'absurd', 'c_14': 'white', 'w_15': 'heroin', 'c_15': 'white', 'mcq_option_1': 'hairdryer', 'mcq_option_2': 'blase', 'mcq_option_3': 'bandage', 'mcq_option_4': 'engine', 'correct_key': 1}, {'distractor_category': 'high_arousal_negative', 'w_1': 'glacier', 'c_1': 'white', 'w_2': 'radiator', 'c_2': 'white', 'w_3': 'context', 'c_3': 'white', 'w_4': 'razor', 'c_4': 'white', 'w_5': 'discomfort', 'c_5': 'white', 'w_6': 'concentrate', 'c_6': 'white', 'w_7': 'hydrant', 'c_7': 'white', 'w_8': 'ambulance', 'c_8': 'red', 'w_9': 'foot', 'c_9': 'white', 'w_10': 'bandage', 'c_10': 'white', 'w_11': 'spanking', 'c_11': 'white', 'w_12': 'inferior', 'c_12': 'white', 'w_13': 'mistake', 'c_13': 'white', 'w_14': 'corridor', 'c_14': 'white', 'w_15': 'messy', 'c_15': 'white', 'mcq_option_1': 'blase', 'mcq_option_2': 'engine', 'mcq_option_3': 'errand', 'mcq_option_4': 'bandage', 'correct_key': 4}, {'distractor_category': 'neutral', 'w_1': 'derelict', 'c_1': 'white', 'w_2': 'blister', 'c_2': 'white', 'w_3': 'poster', 'c_3': 'white', 'w_4': 'fur', 'c_4': 'white', 'w_5': 'shy', 'c_5': 'white', 'w_6': 'deformed', 'c_6': 'white', 'w_7': 'seat', 'c_7': 'white', 'w_8': 'reserved', 'c_8': 'red', 'w_9': 'insect', 'c_9': 'white', 'w_10': 'basket', 'c_10': 'white', 'w_11': 'appliance', 'c_11': 'white', 'w_12': 'absurd', 'c_12': 'white', 'w_13': 'engine', 'c_13': 'white', 'w_14': 'activate', 'c_14': 'white', 'w_15': 'indifferent', 'c_15': 'white', 'mcq_option_1': 'hairdryer', 'mcq_option_2': 'basket', 'mcq_option_3': 'nonchalant', 'mcq_option_4': 'board', 'correct_key': 2}, {'distractor_category': 'low_arousal_positive', 'w_1': 'habit', 'c_1': 'white', 'w_2': 'allergy', 'c_2': 'white', 'w_3': 'scorching', 'c_3': 'white', 'w_4': 'severe', 'c_4': 'white', 'w_5': 'mucus', 'c_5': 'white', 'w_6': 'blase', 'c_6': 'white', 'w_7': 'reptile', 'c_7': 'white', 'w_8': 'earth', 'c_8': 'red', 'w_9': 'ink', 'c_9': 'white', 'w_10': 'violin', 'c_10': 'white', 'w_11': 'item', 'c_11': 'white', 'w_12': 'loneliness', 'c_12': 'white', 'w_13': 'grime', 'c_13': 'white', 'w_14': 'hinder', 'c_14': 'white', 'w_15': 'helpless', 'c_15': 'white', 'mcq_option_1': 'butter', 'mcq_option_2': 'violin', 'mcq_option_3': 'blase', 'mcq_option_4': 'indifferent', 'correct_key': 2}, {'distractor_category': 'neutral', 'w_1': 'slime', 'c_1': 'white', 'w_2': 'disappoint', 'c_2': 'white', 'w_3': 'rigid', 'c_3': 'white', 'w_4': 'ennui', 'c_4': 'white', 'w_5': 'pity', 'c_5': 'white', 'w_6': 'mantel', 'c_6': 'white', 'w_7': 'obesity', 'c_7': 'white', 'w_8': 'street', 'c_8': 'red', 'w_9': 'ache', 'c_9': 'white', 'w_10': 'cabinet', 'c_10': 'white', 'w_11': 'reptile', 'c_11': 'white', 'w_12': 'lazy', 'c_12': 'white', 'w_13': 'massacre', 'c_13': 'white', 'w_14': 'phase', 'c_14': 'white', 'w_15': 'corrupt', 'c_15': 'white', 'mcq_option_1': 'poster', 'mcq_option_2': 'cabinet', 'mcq_option_3': 'chin', 'mcq_option_4': 'nun', 'correct_key': 2}, {'distractor_category': 'high_arousal_negative', 'w_1': 'bland', 'c_1': 'white', 'w_2': 'corpse', 'c_2': 'white', 'w_3': 'mutation', 'c_3': 'white', 'w_4': 'shriek', 'c_4': 'white', 'w_5': 'alimony', 'c_5': 'white', 'w_6': 'paper', 'c_6': 'white', 'w_7': 'rusty', 'c_7': 'white', 'w_8': 'horror', 'c_8': 'red', 'w_9': 'fat', 'c_9': 'white', 'w_10': 'column', 'c_10': 'white', 'w_11': 'hardship', 'c_11': 'white', 'w_12': 'rigid', 'c_12': 'white', 'w_13': 'scar', 'c_13': 'white', 'w_14': 'morbid', 'c_14': 'white', 'w_15': 'nonchalant', 'c_15': 'white', 'mcq_option_1': 'chair', 'mcq_option_2': 'barrel', 'mcq_option_3': 'column', 'mcq_option_4': 'chin', 'correct_key': 3}, {'distractor_category': 'high_arousal_positive', 'w_1': 'fall', 'c_1': 'white', 'w_2': 'noose', 'c_2': 'white', 'w_3': 'fork', 'c_3': 'white', 'w_4': 'statue', 'c_4': 'white', 'w_5': 'rain', 'c_5': 'white', 'w_6': 'anguished', 'c_6': 'white', 'w_7': 'errand', 'c_7': 'white', 'w_8': 'exercise', 'c_8': 'red', 'w_9': 'blister', 'c_9': 'white', 'w_10': 'metal', 'c_10': 'white', 'w_11': 'dump', 'c_11': 'white', 'w_12': 'impotent', 'c_12': 'white', 'w_13': 'industry', 'c_13': 'white', 'w_14': 'office', 'c_14': 'white', 'w_15': 'reptile', 'c_15': 'white', 'mcq_option_1': 'thermometer', 'mcq_option_2': 'lamp', 'mcq_option_3': 'hydrant', 'mcq_option_4': 'metal', 'correct_key': 4}, {'distractor_category': 'neutral', 'w_1': 'column', 'c_1': 'white', 'w_2': 'dump', 'c_2': 'white', 'w_3': 'hairdryer', 'c_3': 'white', 'w_4': 'helpless', 'c_4': 'white', 'w_5': 'patent', 'c_5': 'white', 'w_6': 'ankle', 'c_6': 'white', 'w_7': 'misery', 'c_7': 'white', 'w_8': 'utensil', 'c_8': 'red', 'w_9': 'hard', 'c_9': 'white', 'w_10': 'curtains', 'c_10': 'white', 'w_11': 'deformed', 'c_11': 'white', 'w_12': 'corrupt', 'c_12': 'white', 'w_13': 'beggar', 'c_13': 'white', 'w_14': 'skull', 'c_14': 'white', 'w_15': 'listless', 'c_15': 'white', 'mcq_option_1': 'blase', 'mcq_option_2': 'cork', 'mcq_option_3': 'kerchief', 'mcq_option_4': 'curtains', 'correct_key': 4}, {'distractor_category': 'high_arousal_positive', 'w_1': 'discomfort', 'c_1': 'white', 'w_2': 'mold', 'c_2': 'white', 'w_3': 'odd', 'c_3': 'white', 'w_4': 'paper', 'c_4': 'white', 'w_5': 'appliance', 'c_5': 'white', 'w_6': 'chair', 'c_6': 'white', 'w_7': 'jail', 'c_7': 'white', 'w_8': 'excitement', 'c_8': 'red', 'w_9': 'curtains', 'c_9': 'white', 'w_10': 'mantel', 'c_10': 'white', 'w_11': 'lawn', 'c_11': 'white', 'w_12': 'clumsy', 'c_12': 'white', 'w_13': 'lazy', 'c_13': 'white', 'w_14': 'immature', 'c_14': 'white', 'w_15': 'scorn', 'c_15': 'white', 'mcq_option_1': 'jug', 'mcq_option_2': 'mantel', 'mcq_option_3': 'cord', 'mcq_option_4': 'bandage', 'correct_key': 2}, {'distractor_category': 'low_arousal_positive', 'w_1': 'slime', 'c_1': 'white', 'w_2': 'obnoxious', 'c_2': 'white', 'w_3': 'building', 'c_3': 'white', 'w_4': 'rough', 'c_4': 'white', 'w_5': 'bullet', 'c_5': 'white', 'w_6': 'coffin', 'c_6': 'white', 'w_7': 'bed', 'c_7': 'red', 'w_8': 'locker', 'c_8': 'white', 'w_9': 'square', 'c_9': 'white', 'w_10': 'cord', 'c_10': 'white', 'w_11': 'activate', 'c_11': 'white', 'w_12': 'foul', 'c_12': 'white', 'w_13': 'cannon', 'c_13': 'white', 'w_14': 'dummy', 'c_14': 'white', 'w_15': 'cane', 'c_15': 'white', 'mcq_option_1': 'corridor', 'mcq_option_2': 'door', 'mcq_option_3': 'egg', 'mcq_option_4': 'square', 'correct_key': 4}, {'distractor_category': 'high_arousal_negative', 'w_1': 'sphere', 'c_1': 'white', 'w_2': 'dark', 'c_2': 'white', 'w_3': 'rotten', 'c_3': 'white', 'w_4': 'headache', 'c_4': 'white', 'w_5': 'paper', 'c_5': 'white', 'w_6': 'pamphlet', 'c_6': 'white', 'w_7': 'anger', 'c_7': 'red', 'w_8': 'fall', 'c_8': 'white', 'w_9': 'banner', 'c_9': 'white', 'w_10': 'maniac', 'c_10': 'white', 'w_11': 'engine', 'c_11': 'white', 'w_12': 'bowl', 'c_12': 'white', 'w_13': 'fur', 'c_13': 'white', 'w_14': 'statue', 'c_14': 'white', 'w_15': 'scurvy', 'c_15': 'white', 'mcq_option_1': 'banner', 'mcq_option_2': 'taxi', 'mcq_option_3': 'board', 'mcq_option_4': 'curtains', 'correct_key': 1}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="run12.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="code"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="name" updates="None" val="run2" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="Plus"/>
+    <Routine name="RSVP"/>
+    <Routine name="mcq"/>
+    <LoopTerminator name="run2"/>
+    <Routine name="finish"/>
+  </Flow>
+</PsychoPy2experiment>
